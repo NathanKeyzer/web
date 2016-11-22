@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Transavia Verhalen</title>
+</head>
+
+<body>
+  <header>
+    <h1>Transavia verhalen</h1>
+    <input type="search" placeholder="Zoek verhaal" name="zoeken"><button>Zoeken</button>
+    <a href="aanmelden.html">login</a>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Categorie</a></li>
+              <!-- categorien -->
+            <li><a href="#">non-fictie</a></li>
+            <li><a href="#">fictie</a></li>
+
+
+        <li><a href="verhaal.html">Verras Mij</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-sorting"><p>Sorteer op:</p>
+        <p>Publicatie</p>
+        <select><option value="recent">Recent</option>
+        <option value="ouder">Ouder</option>
+        </select>
+
+        <p>Alfabetisch</p>
+        <select><option value="a-z">A-Z</option>
+        <option value="z-a">Z-A</option>
+        </select>
+
+        <p>Beoordeling</p>
+        <select><option value="hoog">&uarr;</option>
+        <option value="laag">&darr;</option>
+        </select>
+    </div>
+
+  </header>
+
+  <main>
+    <article><h2>iPhone</h2>
+    <img src="#" alt="foto">
+    </article>
+    <article><h2>Scenario</h2>
+      <img src="#" alt="foto">
+    </article>
+    <article><h2>Zombie</h2>
+      <img src="#" alt="foto">
+    </article>
+    <article><h2>Recept</h2>
+      <img src="#" alt="foto">
+    </article>
+    <article><h2>Tanka</h2>
+      <img src="#" alt="foto">
+    </article>
+    <article><h2>Paranoia</h2>
+      <img src="#" alt="foto">
+    </article>
+
+  </main>
+
+<footer>
+  <p> &copy; Transavia Verhalen</p>
+</footer>
+</body>
+
+</html>
