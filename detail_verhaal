@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Transavia Verhalen - Johan Cruijff</title>
+</head>
+
+<body>
+  <header>
+    <h1>Transavia Verhalen</h1>
+    <input type="search" placeholder="Zoek verhaal" name="zoeken"><button>Zoeken</button>
+    <a href="aanmelden.html">login</a>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Categorie</a></li>
+          <ul>
+            <li><a href="#">non-fictie</a></li>
+            <li><a href="#">fictie</a></li>
+
+          </ul>
+        <li><a href="verhaal.html">Verras Mij</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <button><a href="index.html">Terug</a></button>
+  <button>Opslaan</button>
+  <button>Like</button>
+    <article><h2 id="top">Johan Cruijff</h2>
+    <p>Uitgebracht: <time pubdate="pubdate">18-02-2011</time></p>
+    <img src="#" alt="foto">
+    </article>
+    <article>
+      <p>In principe is het dus zo dat je uit Bus 21 stapte en op weg was naar de Openbare Bibliotheek om Stijloefeningen van Raymond Queneau te lenen. Je zocht er dus zeg maar al een tijdje naar, maar het was nergens te vinden, dus daarom moest het wel in de bibliotheek te vinden zijn. En als het er toch niet is, dan ben je dus zeg maar of te vroeg vertrokken, of te laat.</p>
+      <p>Amsterdam ligt er in principe bij als een geitenkaas. Dus dat is niet zoals het hoort, maar het is wel zoals het is, en omdat het al een tijdje is zoals het is, denken heel veel mensen dat het is zoals hoort, maar dat is dus niet zo. Komt door de Noord-Zuidlijn. Dat duurt maar en dat duurt maar. Als het onder de grond niet lukt, dan moet je het boven de grond proberen. Maar als je  toch onder de grond blijft, dan is het dus een kwestie van goed boren. Omdat het allemaal zo lang duurt, mag je wel zeggen dat ze zeg maar niet goed kennen boren.</p>
+      <p>Voor de bibliotheek word je dus aangeklampt door een vrouw. Of dit het postkantoor is, vraagt ze in het Engels. ‘Nee,’ antwoord je zeg maar in het Spaans, want je hoort aan haar accent dat ze in principe uit Frankrijk komt. Je legt het haar uit: ‘Dit is dus de bibliotheek. En als dit dus de bibliotheek is, dan kan dit in principe moeilijk het postkantoor zijn. Tenzij je met postkantoor dus bibliotheek bedoelt, in dat geval is dit inderdaad het postkantoor, in het andere geval moet je in principe dus naar de Raadhuisstraat gaan.’ De vrouw kijkt achterom naar een auto, wie achteruit van je vandaan rijdt.  De vrouw probeert de auto met gebaren te doen stoppen, maar de auto rijdt door. De vrouw rent achter de auto aan. Of de auto rijdt van de vrouw weg, zo zou je het in principe dus ook kunnen zien zeg maar.</p>
+      <p>Op de tweede verdieping zoek je bij de Q naar het boek dat je zoekt. Je kunt het nog steeds niet vinden. Met behulp van de computer kijk je of het boek misschien ergens anders ligt. Volgens de computer ligt er in principe een exemplaar waar het exemplaar moet liggen. Maar daar had je dus net gekeken. Dus ga je in principe nog een keer terug, nu samen met een medewerker wie je helpt met zoeken. Maar ook hij vindt niks. Hij zegt dat het magazijn nog wel een exemplaar heeft. Dus stuur je een mail naar het magazijn wie je een mail terugstuurt dat het enige aanwezige exemplaar op de tweede verdieping aanwezig is, waar je dus net de hele tijd heb zitten zoeken om te constateren dat er in principe dus zeg maar geen exemplaar aanwezig is. Er is wel een exemplaar van Zazie in de metro aanwezig. Daarom ga je daar maar naar op zoek, want als je niet vindt wat je zoekt, moet je zoeken wat je vindt. Dat is dus logisch.</p>
+      <p>In een winkel op het Bos en Lommerplein vind je een paar schoentjes voor je zoontje. Precies de schoentjes waar je in principe dus zeg maar naar op zoek was. Maar da’s logisch.</p>
+    </article>
+      <a href="#top">Terug naar boven</a>
+  </main>
+
+<footer>
+  <p> &copy; Transavia Verhalen</p>
+</footer>
+</body>
+
+</html>
