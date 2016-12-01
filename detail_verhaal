@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   <title>Transavia Verhalen - Johan Cruijff</title>
 </head>
 
@@ -15,25 +16,30 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="#">Categorie</a></li>
-          <ul>
+          <!-- categorien -->
             <li><a href="#">non-fictie</a></li>
             <li><a href="#">fictie</a></li>
 
-          </ul>
         <li><a href="verhaal.html">Verras Mij</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-  <button><a href="index.html">Terug</a></button>
+  <form action="index.html" method="get">
+  <button>Terug</button>
+  </form>
+
   <button>Opslaan</button>
   <button>Like</button>
-    <article><h2 id="top">Johan Cruijff</h2>
-    <p>Uitgebracht: <time pubdate="pubdate">18-02-2011</time></p>
-    <img src="#" alt="foto">
-    </article>
     <article>
+    <header>
+    <h2 id="top">Johan Cruijff</h2>
+    <p>Uitgebracht:</p> <time>2011-02-18</time>
+    <img src="#" alt="foto">
+    </header>
+
+
       <p>In principe is het dus zo dat je uit Bus 21 stapte en op weg was naar de Openbare Bibliotheek om Stijloefeningen van Raymond Queneau te lenen. Je zocht er dus zeg maar al een tijdje naar, maar het was nergens te vinden, dus daarom moest het wel in de bibliotheek te vinden zijn. En als het er toch niet is, dan ben je dus zeg maar of te vroeg vertrokken, of te laat.</p>
       <p>Amsterdam ligt er in principe bij als een geitenkaas. Dus dat is niet zoals het hoort, maar het is wel zoals het is, en omdat het al een tijdje is zoals het is, denken heel veel mensen dat het is zoals hoort, maar dat is dus niet zo. Komt door de Noord-Zuidlijn. Dat duurt maar en dat duurt maar. Als het onder de grond niet lukt, dan moet je het boven de grond proberen. Maar als je  toch onder de grond blijft, dan is het dus een kwestie van goed boren. Omdat het allemaal zo lang duurt, mag je wel zeggen dat ze zeg maar niet goed kennen boren.</p>
       <p>Voor de bibliotheek word je dus aangeklampt door een vrouw. Of dit het postkantoor is, vraagt ze in het Engels. ‘Nee,’ antwoord je zeg maar in het Spaans, want je hoort aan haar accent dat ze in principe uit Frankrijk komt. Je legt het haar uit: ‘Dit is dus de bibliotheek. En als dit dus de bibliotheek is, dan kan dit in principe moeilijk het postkantoor zijn. Tenzij je met postkantoor dus bibliotheek bedoelt, in dat geval is dit inderdaad het postkantoor, in het andere geval moet je in principe dus naar de Raadhuisstraat gaan.’ De vrouw kijkt achterom naar een auto, wie achteruit van je vandaan rijdt.  De vrouw probeert de auto met gebaren te doen stoppen, maar de auto rijdt door. De vrouw rent achter de auto aan. Of de auto rijdt van de vrouw weg, zo zou je het in principe dus ook kunnen zien zeg maar.</p>
