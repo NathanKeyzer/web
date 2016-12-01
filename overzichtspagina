@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   <title>Transavia Verhalen</title>
 </head>
 
@@ -44,22 +46,22 @@
   </header>
 
   <main>
-    <article><h2>iPhone</h2>
+    <article id="v1"><h2>iPhone</h2>
     <img src="#" alt="foto">
     </article>
-    <article><h2>Scenario</h2>
+    <article id="v2"><h2>Scenario</h2>
       <img src="#" alt="foto">
     </article>
-    <article><h2>Zombie</h2>
+    <article id="v3"><h2>Zombie</h2>
       <img src="#" alt="foto">
     </article>
-    <article><h2>Recept</h2>
+    <article id="v4"><h2>Recept</h2>
       <img src="#" alt="foto">
     </article>
-    <article><h2>Tanka</h2>
+    <article id="v5"><h2>Tanka</h2>
       <img src="#" alt="foto">
     </article>
-    <article><h2>Paranoia</h2>
+    <article id="v6"><h2>Paranoia</h2>
       <img src="#" alt="foto">
     </article>
 
