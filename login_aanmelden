@@ -8,7 +8,7 @@
 
 <body>
   <header>
-    <h1>Transavia verhalen</h1>
+    <h1>transavia verhalen</h1>
     <input type="search" placeholder="Zoek verhaal" name="zoeken"><button>Zoeken</button>
     <a href="aanmelden.html">login</a>
 
@@ -27,16 +27,19 @@
   </header>
 
   <main>
-  <form><fieldset>
+  <form>
+    <fieldset>
       <legend>Login:</legend>
       <ul>
       <li>Gebruikersnaam:<input type="text" name="username" placeholder="email"></li>
       <li>Wachtwoord:<input type="text" name="password" placeholder="wachtwoord"></li>
       </ul>
       <input type="submit" name="submit" value="Login">
-    </fieldset></form>
+    </fieldset>
+  </form>
 
-    <form><fieldset>
+  <form>
+      <fieldset>
       <legend>Aanmelden:</legend>
       <ul>
       <li>Voornaam:<input type="text" name="voornaam" placeholder="voornaam"></li>
@@ -48,7 +51,8 @@
       </ul>
       <input type="submit" name="submit" value="Aanmelden">
       <p>&#42;zijn verplichte velden</p>
-    </fieldset></form>
+    </fieldset>
+  </form>
   </main>
 
 <footer>
