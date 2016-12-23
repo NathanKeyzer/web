@@ -1,0 +1,12 @@
+body{
+  max-width: 89em;
+}
+
+@media screen and( max-width: 30.50em){
+  body{
+    background-color:#000;
+    max-width: 20.50em;
+    column-count: 2;
+
+  }
+}

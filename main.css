@@ -1,0 +1,204 @@
+/*
+========================================================
+    GENERAL
+========================================================
+*/
+body{
+  background-color: #F3E5D8;
+}
+main{
+  max-width: 100%;
+  height: auto;
+  margin: 10rem auto;
+  display: inline-block;
+  flex-flow: row wrap;
+  justify-content: center;
+  ============
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around
+
+}
+footer{
+  background-color: #00D66C;
+}
+/*
+========================================================
+    HEADER
+========================================================
+*/
+header{
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* max-width: 100%; */
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  height: auto;
+  /*background: purple;*/
+}
+
+.headerbalk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background: blue;*/
+  height: auto;
+}
+
+header h1{
+  font-size: 3em;
+  font-family:"nexa-bold", sans-serif;
+  color: #00D66C;
+  /*background: red;*/
+  margin: 0;
+  margin-left: 6.2em;
+}
+header .search  {
+  /*width: 100%;*/
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: flex-end;*/
+  padding-right: 1rem;
+  /*margin-top: -5rem;*/
+  /*margin-left: auto;*/
+}
+header .login, a{
+  font-family:"nexa regular", sans-serif;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+header .logo{
+  display: block;
+  width: 3.625em;
+  height: 3.6875em;
+  background: url(../img/transavia-logo.svg);
+  background-size: 3.625em 3.6875em;
+  margin-left: 1em;
+}
+/*
+========================================================
+    NAVIGATIE
+========================================================
+*/
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul{
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: 1em;
+  cursor: pointer;
+  /*background: yellow;*/
+  padding: 0;
+  margin: 0;
+}
+nav a{
+  color:#2800A0;
+  font-family:"nexa-bold", sans-serif;
+  text-decoration: none;
+}
+nav li{
+  list-style: none;
+  margin: 1rem;
+  /*justify-content: space-between;*/
+
+
+}
+.page-sorting{
+  /*width: 100%;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  /*justify-content: space-between;*/
+  padding-right: 1rem;
+  align-items: baseline;
+  /*max-width: 70%;*/
+
+
+}
+.page-sorting p{
+  margin-bottom: 1rem;
+  font-family:"nexa regular", sans-serif;
+  font-size: .75em;
+  color: #2800A0;
+  margin-top: auto;
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+}
+/*
+========================================================
+    TEKST
+========================================================
+*/
+
+h2{
+  color: #2800A0;
+  font-family: "nexa-bold";
+}
+p{
+  font-family:"nexa regular", sans-serif;
+  font-size: 1em;
+  color: #606060;
+}
+
+/*
+========================================================
+    ARTICLE
+========================================================
+*/
+article{
+  background-color: #fff;
+  box-shadow: .0625em .125em .25em 0 rgba(0,0,0,0.50);
+  border-radius: .375rem;
+  height: 25em;
+  margin-top: 5rem;
+  display: inline-block;
+  width: 17.375em;
+  /*margin-left: 1em;*/
+}
+article img{
+  background-color: #D8D8D8;
+  border-radius: .375rem .375rem 0 0;
+  height: 15em;
+  width: 17.375em;
+  background-size: cover;
+}
+article h2{
+  color: #00D66C;
+  font-family: "nexa-bold";
+  font-size: 1.6875em;
+  text-align: center;
+}
+article p{
+  font-family:"nexa regular", sans-serif;
+  font-size: .8em;
+  color: #606060;
+  padding-left: 1.4rem;
+}
+/*
+========================================================
+    FORMULIER
+========================================================
+*/
+legend{
+  background-color: #00D66C;
+  color: #2800A0;
+}
+fieldset{
+  border: none;
+  background-color: #fff;
+  font-family: arial;
+  border-radius: 1rem;
+}
+

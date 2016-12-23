@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'nexa-bold';
+  src: url(../fonts/Nexa_XBold-webfont.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+/*@font-face {
+  font-family: 'nexa-regular'
+  src: url(../fonts/Nexa_Regular-webfont.woff);
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+
+@font-face {
+  font-family: 'minion-pro';
+  src: url('../fonts/minionpro-regular/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/minionpro-regular/MinionPro-Regular.otf') format('opentype'),
+url('../fonts/minionpro-regular/MinionPro-Regular.woff') format('woff'),
+url('../fonts/minionpro-regular/MinionPro-Regular.ttf') format('truetype'),
+url('../fonts/minionpro-regular/MinionPro-Regular.svg#MinionPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
