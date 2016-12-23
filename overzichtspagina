@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, intial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <title>Transavia Verhalen</title>
+  <link rel="stylesheet" type="text/css" href="css/queries.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <title>transavia verhalen</title>
 </head>
 
 <body>
   <header>
-    <h1>Transavia verhalen</h1>
-    <input type="search" placeholder="Zoek verhaal" name="zoeken"><button>Zoeken</button>
-    <a href="aanmelden.html">login</a>
+    <div class="headerbalk">
+    <a href="index.html" class="logo"></a>
+    <h1>transavia verhalen</h1>
+    <div class="search"><input type="search" placeholder="Zoek verhaal" name="zoeken"><button>Zoeken</button></div>
+    <div class="login"><a  href="aanmelden.html">login</a></div>
+    </div>
 
     <nav>
       <ul>
@@ -46,23 +51,55 @@
   </header>
 
   <main>
-    <article id="v1"><h2>iPhone</h2>
-    <img src="#" alt="foto">
+    <article>
+      <img src="img/iphone.jpg" alt="foto">
+      <h2>iPhone</h2>
+      <p> korte intro tekst van het verhaal</p>
     </article>
-    <article id="v2"><h2>Scenario</h2>
-      <img src="#" alt="foto">
+    <article>
+      <img src="img/scenario.png" alt="foto">
+      <h2>Scenario</h2>
+      <p> korte intro tekst van het verhaal</p>
     </article>
-    <article id="v3"><h2>Zombie</h2>
-      <img src="#" alt="foto">
+    <article>
+      <img src="img/zombie.jpg" alt="foto">
+      <h2>Zombie</h2>
+      <p> korte intro tekst van het verhaal</p>
     </article>
-    <article id="v4"><h2>Recept</h2>
-      <img src="#" alt="foto">
+    <article>
+      <img src="img/recept.jpg" alt="foto">
+      <h2>Recept</h2>
+      <p> korte intro tekst van het verhaal</p>
     </article>
-    <article id="v5"><h2>Tanka</h2>
-      <img src="#" alt="foto">
+    <article>
+      <img src="img/tanka.jpg" alt="foto">
+      <h2>Tanka</h2>
+      <p> korte intro tekst van het verhaal</p>
     </article>
-    <article id="v6"><h2>Paranoia</h2>
-      <img src="#" alt="foto">
+    <article>
+      <img src="img/paranoia.jpg" alt="foto">
+      <h2>Paranoia</h2>
+      <p> korte intro tekst van het verhaal</p>
+    </article>
+    <article>
+      <img src="img/western.jpg" alt="foto">
+      <h2>Western</h2>
+      <p> korte intro tekst van het verhaal</p>
+    </article>
+    <article>
+      <img src="img/johan.jpg" alt="foto">
+      <h2>Johan Cruijff</h2>
+      <p> korte intro tekst van het verhaal</p>
+    </article>
+    <article>
+      <img src="img/droom.jpg" alt="foto">
+      <h2>Droom</h2>
+      <p> korte intro tekst van het verhaal</p>
+    </article>
+    <article>
+      <img src="img/moe.jpg" alt="foto">
+      <h2>Moe</h2>
+      <p> korte intro tekst van het verhaal</p>
     </article>
 
   </main>
