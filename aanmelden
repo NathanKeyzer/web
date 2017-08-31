@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  <title>Login/Aanmelden</title>
+</head>
+
+<body>
+ <header>
+    <div class="headerbalk">
+      <svg class="hamburger" viewBox="20 26 27 18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="nav" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(20.000000, 26.500000)">
+            <rect id="Rectangle-3" fill="#00D66C" x="0" y="0" width="27" height="3"></rect>
+            <rect id="Rectangle-3-Copy" fill="#00D66C" x="0" y="7" width="27" height="3"></rect>
+            <rect id="Rectangle-3-Copy-2" fill="#00D66C" x="0" y="14" width="27" height="3"></rect>
+        </g>
+      </svg>
+      <div class="logo-column">
+        <a href="index.html" class="logo"></a>
+      </div>
+
+      <div class="title-column">
+        <h1>transavia verhalen</h1>
+      </div>
+
+      <div class="buttons-column">
+          <form id="demo-2">
+              <input type="search" placeholder="Zoeken">
+              <span class="search-icon"></span>
+          </form>
+          <a href="aanmelden.html"><span class="icon-font icon-passenger"></span></a>
+      </div>
+    </div>
+
+    <nav>
+      <header class="mobile-header">
+        <button></button>
+        <h2>Menu</h2>
+      </header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Categorie</a>
+          <!-- categorien -->
+          <ul>
+            <li><a href="index.html">non-fictie</a></li>
+            <li><a href="index.html">fictie</a></li>
+          </ul>
+        </li>
+        <li><a href="paranoia.html">Verras Mij</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>Login:</legend>
+        <ul>
+        <li>Gebruikersnaam:<input type="email" name="username" placeholder="email" required></li>
+        <li>Wachtwoord:<input type="password" name="password" placeholder="wachtwoord" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"></li>
+        </ul>
+        <button class="button button-primary" type="submit">Login</button>
+      </fieldset>
+    </form>
+
+    <form>
+      <fieldset>
+        <legend>Aanmelden:</legend>
+          <ul>
+            <li>Voornaam:<input type="text" name="voornaam" placeholder="voornaam" required pattern=".{3,}"></li>
+            <li>Achternaam:<input type="text" name="achternaam" placeholder="achternaam" required pattern=".{3,}"></li>
+            <li>E-mail:&#42;<input type="email" name="mail" placeholder="e-mailadres" required></li>
+            <li>Geboortedatum:<input type="date" name="birth" placeholder="geboortedatum"></li>
+            <li>Wachtwoord:&#42;<input type="password" name="password" placeholder="wachtwoord" required pattern="(?=.*\d) (?=.*[a-z]) (?=.*[A-Z]).{6,}"></li>
+            <li>Bevestiging:&#42;<input type="password" name="confirm-password" placeholder="bevestig wachtwoord" required pattern="(?=.*\d) (?=.*[a-z]) (?=.*[A-Z]).{6,}"></li>
+          </ul>
+        <button class="button-primary" type="submit">Aanmelden</button>
+        <p>&#42;zijn verplichte velden</p>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p> &copy; Transavia Verhalen</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>
